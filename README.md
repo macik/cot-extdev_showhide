@@ -68,7 +68,7 @@ and rename Config parameters in you plugin (see below).
 ### Comments
 
 To use this Extension as helper for your own plug you must add (or rename existing ones) 
-parameters of your Extension. See rules for naming in `How extension works` section.
+parameters of your Extension. See rules for naming in `[How extension works](#How-extension-works)` section.
 
 Also you can not to install this plug and only use `extdev_showhide.js` in your plugin.
 
