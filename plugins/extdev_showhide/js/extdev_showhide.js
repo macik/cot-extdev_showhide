@@ -9,7 +9,7 @@ function showhide(){
 		t = re.exec(mark);
 		if (t !=undefined && t.length) {
 			mark = t.pop();
-			$(e).live('change',function(el){
+			$(e).bind('change',function(el){
 				var val = $(e).val();
 				var hide = "[name*='_"+mark+"_']";
 				var show = "[name$='_"+mark+"_"+val+"']";

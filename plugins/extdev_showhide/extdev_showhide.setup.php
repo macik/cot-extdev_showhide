@@ -4,8 +4,8 @@
 Code=extdev_showhide
 Name=ExtDev Helper: Show/Hide
 Description=Extension development helper to make additional options in plugin settings menu shows/hides depends on some selection
-Version=1.0
-Date=2012-Oct-03
+Version=1.1
+Date=2012-Oct-15
 Author=Andrey Matsovkin
 Copyright=Copyright (c) 2011-2012, Andrey Matsovkin
 Notes=If your enjoy my plugin please consider donating to help support future developments. Thanks! mailto:macik.spb@gmail.com
