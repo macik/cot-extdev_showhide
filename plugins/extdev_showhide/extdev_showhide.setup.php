@@ -1,11 +1,11 @@
-<?PHP
+<?php
 /* ====================
 [BEGIN_COT_EXT]
 Code=extdev_showhide
 Name=ExtDev Helper: Show/Hide
 Description=Extension development helper to make additional options in plugin settings menu shows/hides depends on some selection
-Version=1.1
-Date=2012-Oct-15
+Version=1.0
+Date=2012-Oct-03
 Author=Andrey Matsovkin
 Copyright=Copyright (c) 2011-2012, Andrey Matsovkin
 Notes=If your enjoy my plugin please consider donating to help support future developments. Thanks! mailto:macik.spb@gmail.com
@@ -38,7 +38,7 @@ add6_sh1_1=34:string::TestValue:Test#2 Additional param #2
  * @package extdev_showhide
  * @version 1.0
  * @author Andrey Matsovkin
- * @copyright Copyright (c) 2011-2012
+ * @copyright Copyright (c) 2011-2013
  * @license Distributed under BSD license.
 Allowed Var types:
 var1=11:select:0,1,2,3,4,5,6:3:Description
@@ -51,4 +51,3 @@ var7=17:text:0,5:1,2:Text*/
 
 if (!defined('COT_CODE')) { die('Wrong URL ('.array_pop(explode("\\",__FILE__)).').'); }
 
-?>

@@ -1,4 +1,4 @@
-<?PHP
+<?php
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=rc
@@ -11,7 +11,7 @@ Order=50
  *
  * @package extdev_showhide
  * @author Andrey Matsovkin
- * @copyright Copyright (c) 2011-2012
+ * @copyright Copyright (c) 2011-2013
  * @license Distributed under BSD license.
  */
 
@@ -32,11 +32,6 @@ if (!defined('EXTDEV_OFF') // other plugins can switch off this extension
 	$edh_cfg = array_combine(preg_replace("/_#?sh\d*(_.*)?/", '', array_keys($edh_cfg)), array_values($edh_cfg));
 
 	if ($_GET['p']==$plug_name ) $adminhelp .= $L['edh_admin'];
-	$rc_link_func = 'cot_rc_link_footer';
-	// tracks template without {FOOTER_RC} tag
-	$version = str_replace('.','',$cfg['version']);
-	if ($version<98) { $rc_link_func = 'cot_rc_add_file';}
-	$rc_link_func($cfg['plugins_dir'].'/'.$plug_name.'/js/'.$plug_name.'.js');
+	cot_rc_link_footer($cfg['plugins_dir'].'/'.$plug_name.'/js/'.$plug_name.'.js');
 }
 
-?>
